@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1f2430;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+  margin: 10vh auto;
+  background-color: white;
+  padding: 1em;
+  border-radius: 15px;
+  gap: 1em;
+}
+
+button {
+  padding: 0.6em 0.5em;
+}
+
+.note {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0.1em;
+  padding: 0.4em;
+  border-radius: 10px;
+  transition: .1s;
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+}
