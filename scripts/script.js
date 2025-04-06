@@ -1,6 +1,6 @@
 $(document).ready(function () {
    $("#addBtn").on("click", function () {
-      if ($("#note__text").val() !== "/fsz") {
+      if ($("#note__text").val() !== "/font-size") {
          $("#notes__container").append(`<p class="note">${$("#note__text").val()}</p>`)
       } else {
          let userFontSize = prompt("Font size (default: 1)")
